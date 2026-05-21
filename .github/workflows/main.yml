@@ -1,9 +1,9 @@
 name: Moj Prvi Workflow
 on:
 push:
-branches: [ &quot;main&quot; ]
+branches: [ "main" ]
 pull_request:
-branches: [ &quot;main&quot; ]
+branches: [ "main" ]
 jobs:
 pozdrav:
 runs-on: ubuntu-latest
